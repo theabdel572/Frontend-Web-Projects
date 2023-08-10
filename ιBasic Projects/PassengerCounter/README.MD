@@ -5,5 +5,5 @@
 In this project I used HTML, CSS and JavaScript.
 
 ## Skills
-With this webpage I've reinforced some basic JS and 
+With this webpage I've learned some basic JS and 
 how to use JavaScript to manipulate the DOM.
