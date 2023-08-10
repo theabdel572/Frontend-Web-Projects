@@ -1,0 +1,43 @@
+/* 
+
+Project Name: Business Card
+Client: Me
+Author: Abdel | www.twitter.com/theabdel572
+*/
+
+body {
+	/* the follow is the code to have the image display as a full page */
+	background: url('../images/1-scene.jpg') fixed center;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#container {
+	background: darkblue;
+	width: 424px;
+	color: lightyellow;
+	padding: 15px;
+	font-family: 'Dongle', sans-serif;
+	font-size: 160%;
+	opacity: 90%
+}
+
+h1 {
+	font-size: 120px;
+	text-align: center;
+}
+
+h2 {
+	background: lightblue;
+	color: blue;
+	padding: 5px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+a {
+	color: royalblue;
+	text-decoration: none;
+}

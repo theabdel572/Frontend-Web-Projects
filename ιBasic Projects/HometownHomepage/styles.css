@@ -1,0 +1,93 @@
+/**
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+*/
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, serif;
+    width: 720px;
+    color: #1D3557;
+}
+
+img {
+    width: 100px;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("images/castellon.jpg");
+    background-size: cover;
+    color: #FFFFFF;
+    height: 343px;
+    font-weight: 700;
+}
+
+#hero h1 {
+    padding: 3px 12px 5px 12px;
+    background-color: #1D3557;
+    border-radius: 10px;
+}
+
+#hero h2 {
+    font-size: 19px;
+    background-color: #457B9D;
+    border-radius: 10px;
+    padding: 5px 29px 8px 28px;
+}
+
+#full-activities-section-div {
+    background-color: #F1FAEE;
+    padding: 20px 0;
+}
+
+#activities-title {
+    margin: 39px auto;
+    font-size: 24px;
+}
+
+#activities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.activity {
+    width: 198px;
+    margin: 20px 0;
+}
+
+.activity img{
+    width: 100px;
+    height: 100px;
+    border-radius: 1600px;
+}
+
+.activity img:hover {
+    box-shadow: 0 0 10px #1D3557;
+}
+
+#guide-card {
+    background-color: #A8DADC;
+    border-radius: 10px;
+    box-shadow: 0 6px #1D3557;
+    margin: 50px 160px;
+    padding: 23px 13px;
+    display: flex;
+}
+
+#guide-card p {
+    font-style: italic;
+    margin-left: 7px;
+}
+
+#guide-card img {
+    border-radius: inherit;
+}
