@@ -5,7 +5,7 @@
 
 This webpage is made with HTML & CSS.
 
-## What I've learned
+## Skills
 
-With this project, I've reinforced my skills 
+I made this project to reinforce my skills 
 in structuring pages better and some HTML & CSS skills.

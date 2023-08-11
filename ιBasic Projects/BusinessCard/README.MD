@@ -5,7 +5,7 @@
 
 This webpage is made with HTML & CSS.
 
-## What I've learned
+## Skills
 
-I've learned some HTML & CSS basics, and inserting
-YouTube videos in a webpage.
+I made this webpage to learn some HTML & CSS basics, 
+and about inserting YouTube videos in a webpage.

@@ -5,9 +5,9 @@
 
 This webpage is made with HTML & CSS.
 
-## What I've learned
+## Skills
 
-With this webpage, I've learned the basics of
+I made this project to reinforce on basics of
 responsive design, and some interesting things, like
 the CSS nth-child selector, Google Maps integration,
 mailto links, and some other things.

@@ -5,9 +5,10 @@
 
 This webpage is made with HTML & CSS.
 
-## What I've learned
+## Skills
 
-With this webpage, I've reinforced some HTML & CSS skills,
-how to add hover effects, how to add shadows with CSS,
+I made this project to reinforce some HTML & CSS skills
+and my knowledge on how to add hover effects, 
+how to add shadows with CSS,
 how to use a color palette in a project, 
 and some other things.

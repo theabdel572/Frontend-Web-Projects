@@ -4,7 +4,7 @@
 ## Technologies used
 This webpage is made with HTML & CSS.
 
-## What I've learned
-With this webpage, I've reinforced some HTML & CSS skills, 
-improved my ability to clone a design, learned the basics
-of **Flexbox** and **CSS Grid**, and more things.
+## Skills
+I made this project to reinforce some HTML & CSS skills, 
+improve my ability to clone a design, and reinforce my 
+knowledge on **Flexbox** and **CSS Grid**.

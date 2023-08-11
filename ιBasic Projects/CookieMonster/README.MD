@@ -5,7 +5,7 @@
 
 This webpage is made with HTML & CSS.
 
-## What I've learned
+## Skills
 
-With this webpage, I've learned some HTML & CSS basics
+I made this webpage to learn some HTML & CSS basics
 and simple tricks.
