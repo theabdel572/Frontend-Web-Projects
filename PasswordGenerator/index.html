@@ -1,0 +1,24 @@
+<html lang="en-US">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <title>Password Generator</title>
+    </head>
+    <body>
+        <div id="container">
+            <h1>Generate a <br><span>random password</span></h1>
+            <p>Never use an insecure password again.</p>
+
+            <button id="generate" onclick="renderPasswords()">Generate Password</button>
+
+            <div class="line"></div>
+
+            <div id="passwords-container">
+                <h5 id="first-password-field"></h5>
+                <h5 id="second-password-field"></h5>
+            </div>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
