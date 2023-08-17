@@ -1,0 +1,105 @@
+html, body {
+    margin: 51px auto;
+    padding: 0;
+    background: #1B1924;
+    text-align: center;
+    width: 390px;
+}
+
+label {
+    display: none;
+}
+
+#header-img {
+    height: 90px;
+    margin-bottom: 17px;
+}
+
+h1 {
+    margin: 0 0 19px;
+    color: #FFF;
+    font-family: Josefin Sans, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#endorsement-textarea {
+    border-radius: 8px;
+    background: #444059;
+    border: none;
+    color: #8F8F8F;
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    height: 93px;
+    width: 282px;
+    padding: 12px 16px 13px 19px;
+    margin-bottom: 9px;
+}
+
+#parameter-inputs-container {
+    margin: 0 auto 9px;
+    display: flex;
+    justify-content: space-between;
+    width: 315px;
+    text-align: center;
+}
+
+.parameter-input {
+    border-radius: 8px;
+    background: #444059;
+    border: none;
+    text-align: center;
+    color: #8F8F8F;
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    padding: 6px 7px 7px 8px;
+    width: 137px;
+    height: 27px;
+}
+
+#publish-button {
+    border-radius: 8px;
+    border: none;
+    background: #28A9F1;
+    color: #04131C;
+    text-align: center;
+    font-family: Josefin Sans, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 7px 1px 4px;
+    margin-bottom: 19px;
+    width: 317px;
+    height: 61px;
+}
+
+#endorsement-title {
+    color: #FFF;
+    font-family: Josefin Sans, sans-serif;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#endorsement-title span, .parameter-text {
+    font-weight: 700;
+}
+
+.endorsement-container {
+    margin: 0 auto 13px;
+    background: white;
+    width: 286px;
+    padding: 13px 17px 11px 14px;
+    color: #1B1924;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    text-align: left;
+}
+
+.like-button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#like-buttons-container {
+    text-align: end;
+}
