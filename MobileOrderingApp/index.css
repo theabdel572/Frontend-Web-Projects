@@ -1,0 +1,208 @@
+body {
+    margin: 0 auto;
+    width: 600px;
+    font-family: Smythe, serif;
+}
+
+header {
+    background-image: url("images/burguer-header.png");
+    background-size: cover;
+    color: white;
+    padding: 70px 46px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 39px;
+    line-height: 24px; /* 61.538% */
+}
+
+h2 {
+    font-size: 22px;
+    line-height: 14px; /* 61.538% */
+}
+
+main {
+    padding: 0 46px;
+    margin: 30px 0;
+}
+
+/*
+    Menu Items
+*/
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid #D2D2D2;
+}
+
+.menu button {
+    margin: auto 0;
+    color: #3C3C3C;
+    text-align: center;
+    font-family: Inter, serif;
+    font-size: 32px;
+    font-weight: 200;
+    line-height: 24px; /* 75% */
+    border: 1px solid #DEDEDE;
+    border-radius: 70px;
+    width: 50px;
+    height: 50px;
+}
+
+.menu-emoji {
+    font-family: Inter, sans-serif;
+    font-size: 79px;
+    line-height: 98px; /* 125% */
+    letter-spacing: -1.574px;
+    width: 70px;
+    height: 89px;
+    opacity: 0.72;
+    margin-right: 31px;
+}
+
+.menu div {
+    margin: auto 0;
+}
+
+.menu div h3 {
+    font-size: 28px;
+    line-height: 17px; /* 60% */
+    margin: 0;
+}
+
+.menu div p {
+    margin: 8px 0 0 0;
+}
+
+.menu .ingredients {
+    color: #8B8B8B;
+    line-height: 24px; /* 150% */
+    width: 357px;
+    font-size: 16px;
+}
+
+.menu div p {
+    font-size: 20px;
+    line-height: 24px; /* 120% */
+}
+
+/*
+    Order Details
+*/
+
+#order-details {
+    margin-top: 45px;
+}
+
+#order-details h2 {
+    text-align: center;
+    margin: 0 0 62px 0;
+    font-size: 28px;
+    line-height: 17px; /* 60% */
+}
+
+#ordered-items {
+    border-bottom: 1px solid #393333;
+}
+
+#final-details h3{
+    margin: 14px 0 53px;
+}
+
+#final-details h3 {
+    display: flex;
+}
+
+#total-amount {
+    margin-left: auto;
+}
+
+#order-button {
+    display: flex;
+    width: 508px;
+    padding: 18px 170px 18px 190px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.order-item {
+    display: flex;
+}
+
+.remove-from-order {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #BBB;
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+    margin-top: 7px;
+}
+
+.order-item p {
+    font-size: 28px;
+    line-height: 17px; /* 60% */
+}
+
+.order-item .order-item-price {
+    margin-left: auto;
+    text-align: right;
+    font-size: 20px;
+    line-height: 24px; /* 120% */
+}
+
+/*
+    Card Details
+*/
+
+#card-details-container {
+    position: fixed;
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 47px 24px 30px;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    border-radius: 4px;
+    background: whitesmoke;
+    width: 524px;
+    height: 470px;
+}
+
+#card-details-container h2{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px; /* 129.664% */
+}
+
+.card-details-input {
+    display: block;
+    margin: 23px auto;
+    color: #757575;
+    font-size: 20px;
+    line-height: 31px; /* 155.596% */
+    border-radius: 4px;
+    border: 1px solid #757575;
+    padding: 16px 0 13px 26px;
+}
+
+.blue-large-button {
+    color: #FFF;
+    font-family: Verdana, sans-serif;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    border-radius: 3px;
+    border: none;
+    background: #16DB99;
+    /* shadow/sm */
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    padding: 18px 190px 18px 190px;
+}
+
+.hidden {
+    display: none;
+}

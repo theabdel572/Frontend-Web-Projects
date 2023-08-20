@@ -1,0 +1,46 @@
+<html lang="en-US">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <title>Mobile Ordering App</title>
+    </head>
+    <body>
+        <header>
+            <h1>Jimmy's Diner</h1>
+            <h2>The best burgers and pizzas in town.</h2>
+        </header>
+        <main id="main">
+            <div id="menus">
+
+            </div>
+
+            <div id="order-details">
+                <h2>Your Order</h2>
+
+                <div id="ordered-items">
+
+                </div>
+
+                <div id="final-details">
+                    <h3>Total: <span id="total-amount">$0.00</span></h3>
+                    <button id="order-button" class="blue-large-button">Complete Order</button>
+                </div>
+            </div>
+
+            <section id="card-details-container" class="hidden">
+                <h2>Enter card details</h2>
+                <form id="card-details">
+                    <input aria-label="" class="card-details-input" type="text" id="card-name" name="card-name" placeholder="Enter your name" required>
+
+                    <input aria-label="" class="card-details-input" id="ccn" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="19" placeholder="Enter your card number">
+
+                    <input aria-label="" class="card-details-input" type="text" id="card-cvv" name="card-cvv" placeholder="Enter CVV" required>
+
+                    <button id="pay-button" class="blue-large-button">Pay</button>
+                </form>
+            </section>
+        </main>
+
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
