@@ -1,8 +1,10 @@
-# React + Vite
+# Tenzies
+### A game where you have 10 random dies, and you have to get the same number on all of them rolling and helding them.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Technologies used
+This project is made with HTML, CSS, JavaScript, JSX, React,
+and some libraries like nanoid and React-Confetti.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Skills
+I've made this project mainly to reinforce my React skills
+and practice the use of libraries with it.
